@@ -1,18 +1,18 @@
-.header-bg {
-    background-image: url('../images/header.png');
-    background-size: cover;
-    height: 200px;
+.main-bg {
+  background-image: url("../images/main-bg-1.png");
+  height: 1080px;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
-.header{
-    height: 7.6%;
-    /* background-color: green; */
+.header {
+  height: 7.1%;
+  /* background-color: green; */
 }
-.banner{
-    margin-top: 10.2%;
-    height: 85%;
-    /* background-color: grey; */
+.banner {
+  height: 40%;
+  /* background-color: rgba(192, 1, 1, 0.555); */
 }
-.text-header{
-    margin-left: 25%;
+.text-header {
+  margin-left: 27%;
 }
