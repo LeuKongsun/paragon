@@ -1,0 +1,18 @@
+.header-bg {
+    background-image: url('../images/header.png');
+    background-size: cover;
+    height: 200px;
+}
+
+.header{
+    height: 7.6%;
+    /* background-color: green; */
+}
+.banner{
+    margin-top: 10.2%;
+    height: 85%;
+    /* background-color: grey; */
+}
+.text-header{
+    margin-left: 25%;
+}
