@@ -16,3 +16,62 @@
 .text-header {
   margin-left: 27%;
 }
+
+.our-company-bg {
+  background-image: url("../images/dot-map-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.vision-bg {
+  background-image: url("../images/vision-mission-bg.png");
+  background-size: cover;
+  height: 500px;
+  background-repeat: no-repeat;
+}
+.evolution-bg {
+  background-image: url("../images/building-bg.png");
+  background-size: cover;
+  height: 600px;
+  background-repeat: no-repeat;
+}
+
+.footer-bg {
+  background-image: url("../images/footer-bg.png");
+  background-size: cover;
+  height: 700px;
+  background-repeat: no-repeat;
+}
+.vision-header {
+  background-color: rgb(12, 18, 61, 0.6);
+}
+.vision-body {
+  background-color: rgb(2, 7, 13, 0.5);
+}
+
+.evolution-body {
+  background-color: #020054;
+}
+
+.award-frame {
+  background-image: url("../images/award-frame.png");
+  background-size: 100% auto;
+  height: 120px;
+  background-repeat: no-repeat;
+}
+
+.contact {
+  color: #00c6ff;
+}
+
+.vl {
+  border-left: 12px solid #01baf2;
+  height: 100%;
+}
+.social-media-bg {
+  background-color: rgb(12, 18, 61, 0.6);
+}
+
+/* ------------IPHONE X -----------*/
+@media screen and (max-width: 415) {
+
+}
