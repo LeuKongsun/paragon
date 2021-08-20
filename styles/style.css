@@ -180,7 +180,7 @@
 .header-logo {
   position: absolute;
   top: 0;
-  width: 12rem;
+  width: 11rem;
 }
 
 .header-underline {
@@ -202,7 +202,7 @@
 }
 
 .nav-bar-absolute {
-  top: 1rem;
+  top: 2rem;
   background: rgb(24, 68, 115, 0.5);
 }
 
@@ -260,7 +260,7 @@
   }
 
   .nav-bar-absolute {
-    top: 12%;
+    top: 14.3%;
   }
 
   .button-menu-header{
@@ -310,7 +310,7 @@
   }
 
   .nav-bar-absolute {
-    top: 14%;
+    top: 16%;
   }
 }
 
