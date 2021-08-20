@@ -25,20 +25,17 @@
 .vision-bg {
   background-image: url("../images/vision-mission-bg.png");
   background-size: cover;
-  height: 500px;
   background-repeat: no-repeat;
 }
 .evolution-bg {
   background-image: url("../images/building-bg.png");
   background-size: cover;
-  height: 600px;
   background-repeat: no-repeat;
 }
 
 .footer-bg {
   background-image: url("../images/footer-bg.png");
   background-size: cover;
-  height: 700px;
   background-repeat: no-repeat;
 }
 .vision-header {
@@ -71,7 +68,61 @@
   background-color: rgb(12, 18, 61, 0.6);
 }
 
-/* ------------IPHONE X -----------*/
-@media screen and (max-width: 415) {
+.gray-gradient {
+  background: linear-gradient(to right, rgb(0 0 0 / 35%), rgb(0 0 0 / 0%));
+}
 
+.v-line {
+  height: 66%;
+  border-left: 2px dotted #0c123d;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+.v-line-dot {
+  border: 1px solid #0c123d;
+  padding: 14px;
+  background-color: #0c123d;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.coin-frame {
+  position: absolute;
+  bottom: -1rem;
+  right: 0;
+  width: 14rem;
+}
+@media (max-width: 640px) {
+  .text-smallest {
+    font-size: 8px;
+  }
+}
+
+@media (min-width: 768px) {
+  .coin-frame {
+    width: 22rem;
+    right: 1rem;
+    bottom: -2rem;
+  }
+}
+@media (min-width: 1024px) {
+  .coin-frame {
+    width: 26rem;
+    right: 2rem;
+    bottom: -2rem;
+  }
+}
+@media (min-width: 1280px) {
+  .coin-frame {
+    width: 28rem;
+    right: 8rem;
+    bottom: -2rem;
+  }
+}
+@media (min-width: 1536px) {
+  .coin-frame {
+    width: 37rem;
+    right: 10rem;
+  }
 }
