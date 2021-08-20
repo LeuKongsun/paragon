@@ -180,7 +180,7 @@
 .header-logo {
   position: absolute;
   top: 0;
-  width: 11rem;
+  width: 12rem;
 }
 
 .header-underline {
@@ -325,10 +325,6 @@
     bottom: -2rem;
   }
 
-  .header-logo {
-    width: 45rem;
-  }
-
   .header-underline {
     width: 46%;
   }
@@ -338,7 +334,7 @@
   }
 
   .header-logo {
-    width: 40rem;
+    width: 38rem;
   }
 }
 
